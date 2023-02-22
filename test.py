@@ -1,2 +1,0 @@
-beetbete
-print("hello world")
