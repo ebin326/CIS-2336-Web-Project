@@ -1,0 +1,210 @@
+
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background-image: url('https://imgur.com/IvozXct.jpg'); 
+	background-repeat: no-repeat;	
+	background-size: cover;
+}
+
+
+
+.Moody {
+	height: 500px;
+	width: 900px;
+	postition: relative;
+}
+
+.Moody img {
+	float: right;
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+	margin-right: 40px;
+}
+
+.arrow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.arrow button {
+	background: lightcyan;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+.text h3 {
+	color: white;
+	float: left;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-top: -200px;
+	line-height: 2;
+}
+
+.text h4 {
+	color: white;
+	font-size: 20px;
+	margin-left: 400px;
+	color: yellow;
+}
+
+#d35 {
+	float: right;
+	margin-right: 100px;
+}
+
+#d35 h3 {
+	color: red;
+}
+
+#d35 li {
+	color: hotpink;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d36 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d36 img {
+	border-radius: 7px;
+}
+
+.ticket {
+	background-color: mintcream;
+	overflow: auto;
+}
+
+#d37 {
+	float: left;
+	margin-left: 80px;
+}
+
+#d37 h3 {
+	color: red;
+}
+
+#d37 h4 {
+	color: navy;
+}
+
+#d37 li {
+	color: PaleVioletRed;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d38 img {
+	float: right;
+	margin-right: 200px;
+	border-radius: 7px;
+}
+
+
+#d39 img {
+	float: right;
+	margin-right: 200px;
+	border-radius: 7px;
+}
+
+.attractions {
+	background-color: mistyrose;
+	overflow: auto;
+}
+
+#d40 {
+	float: right;
+	margin-right: 300px;
+}
+
+#d40 h3 {
+	color: red;
+}
+
+#d40 li {
+	color: green;
+	font-weight: bold;
+	line-height: 1.5;
+}
+#d41 img {
+	float: left;
+	margin-left: 200px;
+	border-radius: 7px;
+}
+
+.dining {
+	background-color: mintcream;
+	overflow: auto;
+}
+
+#d42 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d42 h3 {
+	color: red;
+}
+
+#d42 li {
+	color: royalblue;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d43 img {
+	float: right;
+	margin-right: 200px;
+	border-radius: 7px;
+}
+
+.stay {
+	background-color: mistyrose;
+	overflow: auto;
+}
+
+#c04 {
+	text-align: center;
+	font-size: 20px;
+	background-color: lightcyan;
+	color: hotpink;
+	font-weight: bold;
+	padding: 10px;
+}
+
+
+#reserve {
+	background-color: lightblue;
+	width: 150px;
+	padding: 20px;
+	text-align: center;
+	color: hotpink;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	border: 1px solid white;
+	float: right;
+	margin-right: -950px;
+	margin-top: 250px;
+	
+}
+
+#reserve:hover {
+	color: white;
+}

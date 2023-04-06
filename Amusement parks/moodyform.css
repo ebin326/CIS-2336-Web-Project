@@ -1,0 +1,128 @@
+body {
+	background-image: url('https://imgur.com/XrmoH1N.jpg');
+	
+}
+
+.container {
+	position: relative;
+	max-width: 1000px;
+	width: 100%;
+	border-radius: 6px;
+	padding: 30px;
+	background-color: white;
+	margin: 0 15px;
+	margin-left: 300px;
+	
+	
+}
+
+.container h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+.container form {
+	position: relative;
+	min-height: 500px;
+	background-color: azure;
+	margin-top: 10px;
+}
+
+.container form .personal {
+	margin-top: 30px;
+}
+
+.container form .title {
+	font-size: 20px;
+	font-weight: bold;
+	color: navy;
+}
+
+.container form .fields {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+form .fields .user-input {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 4px 0;
+	
+}
+.user-input label {
+	font-size: 15px;
+	
+}
+
+.user-input input {
+	height: 50px;
+	border-radius: 6px;
+	border: 1px solid black;
+	color: black;
+	
+}
+
+.Choose {
+
+	margin-top: 10px;
+}
+
+#input1 label {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	color: hotpink;
+	font-weight: bold;
+	
+}
+#input1 input[type="radio"] {
+	font-size: 10px;
+	width: 15px;
+	height: 20px;
+	
+	
+}
+
+#input2 {
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+	line-height: 2;
+}
+
+#input2 label {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	color: hotpink;
+	font-weight: bold;
+	
+}
+
+#input2 input[type="radio"] {
+	font-size: 10px;
+	width: 15px;
+	height: 20px;
+}
+
+button {
+	color: red;
+	background-color: mistyrose;
+	margin-left: 400px;
+	border: 1px solid white;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	transition-duration: 0.5s;
+	
+}
+
+button:hover {
+	color: white;
+}
+
