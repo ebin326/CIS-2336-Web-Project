@@ -23,3 +23,14 @@ function back(){
 		next_back.src=images[num]
 	}
 };
+
+function redirect() {
+    var selectedOption = document.getElementById("contid").value;
+    if (selectedOption === "TT") {
+        window.location.href = "https://www.lachingadahtx.com/tacos-tequila";
+    } else if (selectedOption === "MC") {
+        window.location.href = "https://www.lachingadahtx.com/mexicancuisine";
+    } else {
+        alert("Please select an option from the dropdown menu.");
+    }
+}
