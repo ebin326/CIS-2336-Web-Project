@@ -1,0 +1,10 @@
+<html>
+<title> Page Splitter Colums </title>
+<head>
+</head>
+<frameset cols="25%,*,0%">
+  <frame src="Menu.html">
+  <frame src="Content.html">
+  <frame src="index.html">
+</frameset>
+</html>
