@@ -1,0 +1,56 @@
+body 
+{
+	overflow:hidden;
+}
+h1
+{
+	color: white;
+	text-decoration: underline;
+}
+
+
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(164, 114, 170);
+}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  border-color: black;
+  border: solid 1px ;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover 
+{
+  background-color: #111111;
+}
+#v_info 
+{
+    border: #000 1px solid;
+    overflow : hidden;
+    position : fixed;
+	width: 99%;
+	height:87%;
+}
