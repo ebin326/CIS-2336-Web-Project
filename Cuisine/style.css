@@ -1,7 +1,7 @@
 .container {
 	width: 100%;
-	height: 100%;
-	display: flex;
+	height: 70%;
+	display:flex;
 	align-items: center;
 	justify-content: left;
 	background-image: url('local.jpg'); 	
@@ -27,7 +27,7 @@
 
 .arrow{
 	position: absolute;
-	top: 0;
+	top: -90;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -47,15 +47,14 @@
 	font-size: 35px;
 	font-weight: bold;
 	margin-left: 250px;
-	margin-bottom: 500px;
+	margin-bottom: 400px;
 	color: rgb(32, 17, 100);
 	line-height: 1.5;
 }
-.content p {
-		
+.content p {	
 	float: left;
 	margin-left: 100px;
-	margin-top: -450px;
+	margin-top: -350px;
 	color: rgb(48, 38, 4);
 	line-height: 1.5;
     font-family: "Cambria";
