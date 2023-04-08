@@ -1,0 +1,24 @@
+body {
+	background-image: url('https://imgur.com/fX8P9aa.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+h1 {
+	color: lightcyan;
+	
+	font-size: 45px;
+	font-family: cursive;
+	font-style: italic;
+	text-align: center;
+
+}
+
+#d01 {
+    	float: left;
+	margin-bottom: 0px;
+	margin-top: -130px;
+    	
+}
+

@@ -1,0 +1,225 @@
+
+#n02 {
+	float: left;
+	margin-top: -700px;	
+			
+
+}
+#n02 ul {
+	display: table-row;
+}
+#n02 li {
+	display: table-cell;
+  	text-align: center;
+  	padding: 15px;
+	line-height: 1.5;
+		
+}
+
+#n02 a {
+	padding: 10px;
+	color: pink;
+	font-weight: bold;
+	
+}
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background-image: url('https://imgur.com/XTEqhSx.jpg'); 
+	background-repeat: no-repeat;	
+	background-size: cover;
+}
+
+
+
+.Harbor {
+	height: 500px;
+	width: 800px;
+	postition: relative;
+}
+
+.Harbor img {
+	float: right;
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+	margin-right: -10px;
+}
+
+.arrow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	line-height: 1;
+}
+
+.arrow button {
+	background: lightcyan;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+.text {
+	float: left;
+	color: white;
+	float: left;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-top: -100px;
+	line-height: 2;
+}
+
+#d25 {
+	float: right;
+	margin-right: 400px;
+}
+
+#d25 h3 {
+	color: red;
+}
+
+#d25 li {
+	color: pink;
+	font-weight: bold;
+	line-height: 1.5;
+}
+#d26 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d26 img {
+	border-radius: 7px;
+	
+}
+
+.tickets {
+	background-color: mintcream;
+	overflow: auto;
+}
+
+#d27 {
+	float: left;
+	margin-left: 200px;
+}
+#d27 h3 {
+	color: red;
+}
+#d27 ul {
+
+	float:left;
+	margin:0 5px;
+}
+
+#d27 li {
+	color: seagreen;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d28 {
+	float: right;
+	margin-right: 200px;
+}
+
+.attractions {
+	background-color: mistyrose;
+	overflow: auto;
+}
+
+#d29 {
+	float: right;
+	margin-right: 300px;
+}
+
+#d29 h3 {
+	color: red;
+}
+
+#d29 li {
+	color: orange;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d30 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d30 img {
+	border-radius: 7px;
+}
+.dinning {
+	background-color: mintcream;
+	overflow: auto;
+}
+
+#d31 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d31 h3 {
+	color: red;
+}
+
+#d31 li {
+	color: violet;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d32 img {
+	border-radius: 7px;
+}
+
+#d32 {
+	float: right;
+	margin-right: 200px;
+}
+
+.cabanas {
+	background-color: mistyrose;
+	overflow: auto;
+}
+
+#c03 {
+	text-align: center;
+	font-size: 20px;
+	background-color: lightcyan;
+	color: hotpink;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#reserve {
+	background-color: lightblue;
+	width: 150px;
+	padding: 20px;
+	text-align: center;
+	color: hotpink;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	border: 1px solid white;
+	float: right;
+	margin-right: -900px;
+	margin-top: 250px;
+	
+}
+
+#reserve:hover {
+	color: white;
+}

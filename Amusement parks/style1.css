@@ -1,0 +1,207 @@
+
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background-image: url('https://imgur.com/89NbdaN.jpg'); 
+	background-repeat: no-repeat;	
+	background-size: cover;
+}
+
+
+
+.Texas {
+	height: 500px;
+	width: 900px;
+	postition: relative;
+}
+
+.Texas img {
+	float: right;
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+	margin-right: -30px;
+}
+
+.arrow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+.arrow button {
+	background: lightcyan;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+
+.text h3 {
+	
+	float: left;
+	margin-left: 100px;
+	color: royalblue;
+	font-size: 25px;
+	margin-top: -80px;
+	line-height: 1.5;
+}
+
+.tickets {
+	background-color: mintcream;
+	overflow: auto;
+}
+
+#d16 {
+	float: left;
+	margin-left: 150px;
+	padding: 10px;
+}
+
+#d16 img {
+	border-radius: 7px;
+}
+
+#d15 {
+	float: right;
+	margin-right: 200px;
+	
+}
+
+#d15 li {
+	color: navy;
+	font-weight: bold;
+}
+
+#d15 h3 {
+	color: red;
+}
+
+#d17 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d17 li {
+	color: orange;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d17 h3 {
+	color: red;
+}
+
+#d18 {
+	float: right;
+	margin-right: 200px;
+	
+}
+
+#d18 img {
+	border-radius: 7px;
+}
+
+.attractions {
+	background-color: mistyrose;
+	overflow: auto;
+}
+
+#d19 {
+	float: right;
+	margin-right: 400px;
+}
+
+#d19 li {
+	color: hotpink;
+	font-weight: bold;
+	line-height: 1.5;
+ 	
+}
+
+#d19 h3 {
+	color: red;
+}
+#d20 {
+	float: left;
+	margin-left: 200px;
+}
+
+#d20 img {
+	border-radius: 7px;
+}
+
+.dinning {
+	background-color: mintcream;
+	overflow: auto;
+}
+
+#d21 {
+	float: left;
+	margin-left: 100px;
+}
+
+#d21 h3 {
+	color: red;
+}
+
+#d21 li {
+	color: darkcyan;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#d22 {
+	float: right;
+	margin-right: 200px;
+}
+
+#d22 img {
+	border-radius: 7px;
+}
+
+.cabana {
+	background-color: mistyrose;
+	overflow: auto;
+}
+
+#c02 {
+	text-align: center;
+	font-size: 20px;
+	background-color: lightcyan;
+	color: hotpink;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#reserve {
+	background-color: lightblue;
+	width: 150px;
+	padding: 20px;
+	text-align: center;
+	color: hotpink;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+	border: 1px solid white;
+	float: right;
+	margin-right: -800px;
+	margin-top: 500px;
+	
+}
+
+#reserve:hover {
+	color: white;
+}
+

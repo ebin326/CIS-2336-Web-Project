@@ -1,0 +1,61 @@
+/* CSS File for Aesthetics */
+
+/* First up a general body color scheme */
+body{
+	background: linear-gradient(black,DarkSlateGray,slateGray);
+	
+	}
+
+
+/*This one is for the main content page*/
+#content {
+	   background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLTQxLWx1a2VzdGFja3Bvb2xlLWdyZWVubGFuZC1jYWJpbi0wMWEuanBn.jpg");
+	   background-repeat: no-repeat;
+	   background-size:100%;
+}
+
+
+/* For the paragraphs */
+p {
+   text-align: center;
+   color: white;
+}
+
+
+/* For the table */
+table {
+	margin-left:auto;
+	text-align: center;
+}
+
+
+
+/* For the images */
+img {
+      width:45%;
+      height:45%;
+}
+
+
+
+/*For the header */
+#h1 {color: white;
+     text-align:center;
+}
+
+
+
+/*Lastly, for the bottom part of the page */
+#footer {
+	
+	font: size:2; 
+	face: Impact; 
+	color: LightSteelBlue;
+	text-align: center;
+}
+
+
+
+
+
+
