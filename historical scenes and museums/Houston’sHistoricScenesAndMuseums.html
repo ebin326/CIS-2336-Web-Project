@@ -1,9 +1,7 @@
 <html>
 <head>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<!--Navigation bar-->
-<!-- 
-end of Navigation bar -->
+<script src="//code.jquery.com/jquery.min.js"></script>
+
 <style>
 p {
     font-size: 10px;
@@ -21,15 +19,11 @@ img{
 </head>
 
 <body bgcolor="teal">
-<!-- <script>
-    $(function(){
-      $("#nav-placeholder").load("nav.html");
-    });
-</script>
-<div id="nav-placeholder"></div> -->
-
-
-
+<script>
+  $.get("navigation.html", function(data){
+      $("#nav-placeholder").replaceWith(data);
+  });
+  </script>
 
 <center>
 <h1 style="color:coral;"> Houston’s historical scenes and museums </h1>
