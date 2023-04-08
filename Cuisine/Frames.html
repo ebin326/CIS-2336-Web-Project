@@ -2,6 +2,7 @@
 <html>
 <title> Different cuisine cultures and where to enjoy - Nhat </title>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <frameset rows="25%,*,10%">
 	<frame src="Header.html">
@@ -11,4 +12,10 @@
 	 </frameset>
 	<frame src="Footer.html">
 </frameset>
+<div id="nav-placeholder"></div>
+  <script>
+      $.get("nav.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
 </html>
