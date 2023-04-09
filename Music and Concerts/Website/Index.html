@@ -1,15 +1,24 @@
 <html>
 <title> Concert Venues </title>
 <head> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 <style>
 </style>
 </head>
 <!-- 3 Row Frameset -->
-<frameset rows="10%,*,6%" border="0">
+<iframe src="Venue_info.html" frameborder="0" height="92%" width="100%"></iframe>
+<iframe src="Footer.html" frameborder="0" height="8%" width="100%"></iframe>
+<!-- <frameset rows="10%,*,6%" border="0">
 	<frame src="Top.html" frameborder="0">
 	<frame src="Venue_info.html" frameborder="0"> 
 	<frame src="Footer.html" frameborder="0">
-</frameset>
+</frameset> -->
 <body>
+	<div id="nav-placeholder"></div>
+	<script>
+		$.get("nav.html", function(data){
+			$("#nav-placeholder").replaceWith(data);
+		});
+	</script>
 </body>
 </html>

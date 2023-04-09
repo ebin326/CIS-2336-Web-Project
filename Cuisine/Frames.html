@@ -4,14 +4,20 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-<frameset rows="25%,*,10%">
+
+<iframe src="Header.html" width="100%" height="20%" frameborder="0" scrolling="no"></iframe>
+<iframe src="Navigation.html" width="25%" height="70%" frameborder="0" scrolling="no"></iframe>
+<iframe src="Body.html" width="74%" height="70%" frameborder="0" scrolling="no"></iframe>
+<iframe src="Footer.html" width="100%" height="10%" frameborder="0" scrolling="no"></iframe>
+
+<!-- <frameset rows="25%,*,10%">
 	<frame src="Header.html">
 	<frameset cols="25%,*">
 	 <frame src="Navigation.html">
 	 <frame src="Body.html">
 	 </frameset>
 	<frame src="Footer.html">
-</frameset>
+</frameset> -->
 <div id="nav-placeholder"></div>
   <script>
       $.get("nav.html", function(data){
