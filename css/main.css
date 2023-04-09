@@ -1648,10 +1648,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 42px;
     line-height: 42px;
     font-family: "montserrat-medium", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #000000;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1665,7 +1665,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .header-menu-text {
