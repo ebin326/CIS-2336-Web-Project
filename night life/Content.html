@@ -1,7 +1,16 @@
 <!-- Main Page -->
 <html>
 <!--Link to styling sheet -->
-<head><link rel="stylesheet" href="NightLife.css"></head>
+<head><link rel="stylesheet" href="NightLife.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqeury/3.5.1/jquery/jquery.min.js">
+</script>
+</head>
+<div id=""nav-placeholder"></div>
+<script>
+	$.get("nav.html", function(data){
+		$("#nav-placeholder").replaceWith(data);
+	});
+</script>
 <body id="content">
 <p id="p1"> Click the button to learn more! </p>
 <form>
