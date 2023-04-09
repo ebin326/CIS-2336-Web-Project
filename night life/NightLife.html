@@ -6,7 +6,16 @@
 <!-- link to the CSS style sheet -->
 <head> 
 <link rel="stylesheet" href="NightLife.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqeury/3.5.1/jquery/jquery.min.js">
+</script>
 </head>
+<div id=""nav-placeholder"></div>
+<script>
+	$.get("nav.html", function(data){
+		$("#nav-placeholder").replaceWith(data);
+	});
+</script>
+
 
 <!-- setting up frames for the website -->
 <frameset rows="20%,*,8%">
