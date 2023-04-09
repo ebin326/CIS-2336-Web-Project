@@ -23,16 +23,42 @@
 .image{
 
 	flex-basis: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 80px;
 
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+Img{
+	width: 205px;
+	height: 200px;
+}
 
 .textbox{
 
 	font-size: 20px;
-	padding-left: 20px;
+	padding-left: 40px;
+
+
+
+
+
+
 }
 
 .container{
@@ -135,29 +161,39 @@
 
 #buffalo{
 	font-size: 30px;
-	text-decoration: none;
+	text-decoration: wavy underline;
+	color:#3C5F2A;
+
 }
 
 #discover{
 	font-size: 30px;
-	text-decoration: none;
+	text-decoration: wavy underline;
+	color:#E2EFDC;
+
 
 }
 
 
 #garden{
 	font-size: 30px;
-	text-decoration: none;
+	text-decoration: wavy underline;
+	color:#3C5F2A;
+
 }
 
 #zoo{
 	font-size: 30px;
-	text-decoration: none;
+	text-decoration: wavy underline;
+	color:#E2EFDC;
+
 }
 
 #aqrm{
 	font-size: 30px;
-	text-decoration: none;
+	text-decoration: wavy underline;
+	color:#3C5F2A;
+
 }
 
 .side{
@@ -171,6 +207,32 @@
 #d{background-color:##E2EFDC;}
 #e{background-color:#C5DFB9;}
 
+
+
+#bayoupark{height:300px;
+	   width:350px;	
+}
+
+
+#dpark{height:300px;
+	   width:350px;	
+}
+
+
+#gardennn{height:300px;
+	 width:500px;	
+}
+
+#zoo01{ 
+	height:300px;
+	 width:500px;
+}	
+
+#aqrm01{
+	height:300px;
+	 width:500px;	
+
+}
 </style>
 <body>
 
@@ -213,23 +275,41 @@
 
 <article class="section" id="a">
 
-<a id="buffalo" href="https://buffalobayou.org/visit/?gclid=Cj0KCQjwxMmhBhDJARIsANFGOStvDsvavaXJNDSWo8sOonh8Rz7L2IzGIONoKacqqxWARbBPniFCO0EaAt-xEALw_wcB"> Buffalo Bayou Park </a>
+<a id="buffalo" href="https://buffalobayou.org/visit/?gclid=Cj0KCQjwxMmhBhDJARIsANFGOStvDsvavaXJNDSWo8sOonh8Rz7L2IzGIONoKacqqxWARbBPniFCO0EaAt-xEALw_wcB"> <center>Buffalo Bayou Park </center></a>
 
 <div class="container">
 <div class="image">
 
-		<img src="BayouPark.jpeg" width="500" height="300">
+		<img src="BayouPark.jpeg" id="bayoupark" height="300" width="500">
 
 	</div>
 
 		<div class="textbox">
 
 			<p> The beautiful Buffalo Bayou Park is a gem in the Houston area. The park offers 160-acres of green space for a variety of activities including hiking, biking, picnics, and play areas. One of the main attractions of this park is the Boat Tours they offer. The boat ride is around 45 minutes long in which you can escape the commotion of the city and enjoy the interesting sights and breeze surrounding Buffalo Bayou's water. To learn more about this amazing park be sure to check out their website.</p> 
+<div class="clearfix">
+  <div class="img-container">
+  <img src="bpark.jpeg" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="park04.jpeg" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="boatride.jpg" style="width:100%">
+  </div>
+</div>
+
 
 	</div>
 
 
+
 </div>
+
+
+</div>
+
+
 
 
 </div>
@@ -239,18 +319,32 @@
 
 <article class="section" id="b">
 
-<a id="discover" href="https://www.discoverygreen.com/"> Discover Green </a>
+<a id="discover" href="https://www.discoverygreen.com/"><center> Discover Green</center> </a>
 <div class="container">
 	<div class="image">
 
-		<img src="discoverygreen.jpeg" width="500" height="300">
+		<img src="discoverygreen.jpeg" id="dpark">
 
 	</div>
 
 
 	<div class="textbox">
 
-		<p> The delightful Discover Green Park located in the heart of Houston brings all Houstonians together through hundreds of events all year long. What we admire about Discovery Green is their mission to create a sustainable, environmental friendly park for everyone to enjoy. Although Discovery Green recently opened in 2008, it offers 12-acres of urban green space. One of the more popular events is ice skating during winter in which they have fun music and good vibes for you and your family to skate along with. </p>
+		<p> The delightful Discover Green Park located in the heart of Houston brings all Houstonians together through hundreds of events all year long. What we admire about Discovery Green is their mission to create a sustainable, environmental friendly park for everyone to enjoy. Although Discovery Green recently opened in 2008, it offers 12-acres of urban green space. One of the more popular events is ice skating during winter in which they have fun music and good vibes for you and your family to skate along with.
+<div class="clearfix">
+
+  <div class="img-container">
+  <img src="skating.jpeg"  style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="dpark02.jpeg" style="width:100%">
+  </div>
+<div class="img-container">
+  <img src="dpark03.jpeg" style="width:100%">
+  </div>
+</div>
+ </p>
+
 	</div>
 	
 </div>
@@ -262,16 +356,29 @@
 <article class="section" id="c">
 
 
-<a id="garden" href="https://www.facebook.com/houstonbotanicgarden/"> Houston Botanic Garden </a>
+ <a id="discover" href="https://www.yelp.com/biz/houston-botanic-garden-houston"><center>Houston Botanic Garden </center></a>
 
 <div class="container">
-<div class="image">
+	<div class="image">
 
-		<img src="garden.jpeg" width="500" height="300">
+		<img src="garden.jpeg" id="gardennn">
 
 	</div>
 	<div class="textbox">
-		<p> As fun and chatThe beautiful Botanic Garden is filled with a collection of themed gardens for you and your family to explore through. You are able to experience and learn about the exotic and native plants alongside the wildlife like butterflies and birds that have made the garden a home. </p>
+		<p> The beautiful Botanic Garden is filled with a collection of themed gardens for you and your family to explore through. You are able to experience and learn about the exotic and native plants alongside the wildlife like butterflies and birds that have made the garden a home. </p>
+
+<div class="clearfix">
+
+  <div class="img-container">
+  <img src="lightscape.jpeg"  style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="garden02.jpeg" style="width:100%">
+  </div>
+<div class="img-container">
+  <img src="garden03.png" style="width:100%">
+  </div>
+</div>
 
 
 	</div>
@@ -285,12 +392,12 @@
 
 <article class="section" id="d">
 
-<a id="zoo" href="https://www.houstonzoo.org/">Houston Zoo</a>
+<a id="zoo" href="https://www.houstonzoo.org/"><center>Houston Zoo</center></a>
 
 <div class="container">
 <div class="image">
 
-		<img src="houstonzoo.jpeg" width="500" height="300">
+		<img src="houstonzoo.jpeg" id="zoo01">
 
 	</div>
 
@@ -298,6 +405,19 @@
 	<div class="textbox">
 
 		<p> The Houston Zoo is the second most visited zoo in the US. It is also home to a number of different animals which makes it the perfect place for you and your family to come and experience unique places from all over the world all in one location. There have been major renovations to the Zoo and it has even opened a new exhibit which continues to make the zoo even better.  </p>
+<div class="clearfix">
+
+  <div class="img-container">
+  <img src="zoo01.jpeg"  style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="elephants.jpeg" style="width:100%">
+  </div>
+<div class="img-container">
+  <img src="zoo02.jpeg" style="width:100%">
+  </div>
+</div>
+
 
 
 
@@ -310,17 +430,29 @@
 
 <article class="section" id="e">
 
-<a id="aqrm" href="https://www.aquariumrestaurants.com/downtownaquariumhouston/"> Houston Downtown Aquarium </a>
+<a id="aqrm" href="https://www.aquariumrestaurants.com/downtownaquariumhouston/"> <center>Houston Downtown Aquarium</center> </a>
 <div class="container">
 <div class="image">
 
-		<img src="aquarium.jpeg" width="500" height="300">
+		<img src="aquarium.jpeg" id="aqrm01">
 
 	</div>
 
 
 	<div class="textbox">
-	<p> Our downtown aquarium is unique not only because it is home to over 300 species of aquatic animals. But because it also includes other amenities like restraunts, carnival-style games and even rides like the beautiful ferris wheel. </p>
+	<p> Our downtown aquarium is unique not only because it is home to over 300 species of aquatic animals. But because it also includes other amenities like restraurants, carnival-style games and even rides like the beautiful ferris wheel. Just like our Houston Zoo you are able to experience places from all over the world in just one place.  </p>
+<div class="clearfix">
+
+  <div class="img-container">
+  <img src="aqrm01.jpeg"  style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="ferriswheel.jpeg" style="width:100%">
+  </div>
+<div class="img-container">
+  <img src="aqrm02.jpeg" style="width:100%">
+  </div>
+</div>
 
 	</div>
 
