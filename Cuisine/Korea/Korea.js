@@ -1,5 +1,5 @@
 var next_back = document.querySelector("img");
-var images = ["Steak images/1.jpg", "Steak images/2.jpg", "Steak images/3.jpg", "Steak images/4.jpg", "Steak images/5.jpg"];
+var images = ["Korea images/1.jpg", "Korea images/2.jpg", "Korea images/3.jpg", "Korea images/4.jpg", "Korea images/5.jpg"];
 
 var num=0;
 

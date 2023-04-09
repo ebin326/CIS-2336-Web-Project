@@ -4,12 +4,12 @@
 	display:flex;
 	align-items: center;
 	justify-content: left;
-	background-image: url('Steak.jpg'); 	
+	background-image: url('Korean.jpg'); 	
 }
 
 
 
-.Steak1 {
+.BBQ {
 	height: 400px;
 	width: 500px;
 	position: relative;
@@ -17,7 +17,7 @@
 }
 
 
-.Steak1 img {
+.BBQ img {
 	float:right;
 	width: 100%;
 	height: 100%;
@@ -56,7 +56,7 @@
 	float: left;
 	margin-left: 100px;
 	margin-top: -350px;
-	color: rgb(48, 38, 4);
+	color: rgb(112, 29, 9);
 	line-height: 1.5;
     font-family: "Cambria";
     font-weight: bold;
@@ -76,12 +76,12 @@
 	display:flex;
 	align-items: center;
 	justify-content: left;
-	background-image: url('Steak.jpg'); 	
+	background-image: url('Korean.jpg'); 	
 }
 
 
 
-.Steak2 {
+.FriedChicken {
 	height: 400px;
 	width: 500px;
 	position: relative;
@@ -89,7 +89,7 @@
 }
 
 
-.Steak2 img {
+.FriedChicken img {
 	float:right;
 	width: 100%;
 	height: 100%;
@@ -109,8 +109,8 @@
 .content2 p {	
 	float: left;
 	margin-left: 100px;
-	margin-top: -380px;
-	color: rgb(48, 38, 4);
+	margin-top: -330px;
+	color: rgb(172, 15, 62);
 	line-height: 1.5;
     font-family: "Cambria";
     font-weight: bold;
