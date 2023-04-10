@@ -1,0 +1,244 @@
+/* ------------------------------------------------------------------- 
+ * ## main navigation 
+ * ------------------------------------------------------------------- */
+ .header-nav {
+    background: #0C0C0C;
+    color: rgba(255, 255, 255, 0.25);
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.846;
+    padding: 3.6rem 3rem 3.6rem 3.6rem;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 700;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: hidden;
+}
+
+.header-nav a, .header-nav a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header-nav a:hover,
+.header-nav a:focus,
+.header-nav a:active {
+    color: white;
+}
+
+.header-nav h3 {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    margin-bottom: 4.8rem;
+    margin-top: .9rem;
+    color: #39b54a;
+}
+
+.header-nav p {
+    margin-bottom: 2.7rem;
+}
+
+.header-nav__content {
+    position: relative;
+    left: 50px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header-nav__list {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.8rem;
+    margin: 3.6rem 0 3rem 0;
+    padding: 0 0 1.8rem 0;
+    list-style: none;
+}
+
+.header-nav__list li {
+    padding-left: 0;
+    line-height: 4.5rem;
+}
+
+.header-nav__list a,
+.header-nav__list a:visited {
+    color: #FFFFFF;
+}
+
+.header-nav__social {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header-nav__social li {
+    margin-right: 12px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.header-nav__social li a {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.header-nav__social li a:hover,
+.header-nav__social li a:focus {
+    color: white;
+}
+
+.header-nav__social li:last-child {
+    margin: 0;
+}
+
+.header-nav__close {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    z-index: 800;
+}
+
+.header-nav__close span::before, 
+.header-nav__close span::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 12px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 9px;
+    margin-top: -1px;
+}
+
+.header-nav__close span::before {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.header-nav__close span::after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* menu is open
+ * ----------------------------------------------- */
+.menu-is-open .header-nav {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu-is-open .header-nav .header-nav__content {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+    left: 0;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * ## mobile menu toggle 
+ * ------------------------------------------------------------------- */
+.header-menu-toggle {
+    position: fixed;
+    right: 38px;
+    top: 24px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #39b54a; /*-- use this to chnage the color of the menu icon */
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-menu-toggle.opaque {
+    background-color: #000000;
+}
+
+.header-menu-toggle.opaque .header-menu-text {
+    background-color: #000000;
+}
+
+.header-menu-toggle:hover, .header-menu-toggle:focus {
+    color: #FFFFFF;
+}
+
+.header-menu-text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 70px;
+    padding-left: 12px;
+}
+
+.header-menu-icon {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    background-color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-menu-icon::before, .header-menu-icon::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-menu-icon::before {
+    top: -9px;
+}
+
+.header-menu-icon::after {
+    bottom: -9px;
+}
+

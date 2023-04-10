@@ -1,12 +1,19 @@
 <html>
 <link rel="stylesheet" href="x.css">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 <style>
 body {background-image:url("fifa.jpg");background-size:1700px;}
 p {color:white;font-size:18px}
 </style>
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
 <br>
 <center> <h1 id="h01"> TEAMS </h1></center>
 <div>
