@@ -33,7 +33,10 @@ table {
 	background-color: gainsboro;
 	border: none;
 	color: black;
-	
+	font-size: 16px;
+	border-radius: 8px;
+	padding: 12px 28px;
+
 }
 
 /* For the images */
