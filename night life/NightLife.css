@@ -29,7 +29,12 @@ table {
 	text-align: center;
 }
 
-
+#button{
+	background-color: gainsboro;
+	border: none;
+	color: black;
+	
+}
 
 /* For the images */
 img {
