@@ -8,26 +8,20 @@ h1
 	text-decoration: underline;
 }
 
-
-.center 
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 ul 
 {
-  list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
+  display:table;
+  width:100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
   background-color: rgb(164, 114, 170);
 }
 
 li 
 {
-  float: left;
+display:table-cell;
 }
 
 li a 
@@ -37,7 +31,7 @@ li a
   border-color: black;
   border: solid 1px ;
   text-align: center;
-  padding: 12px;
+  padding: 13px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -46,9 +40,9 @@ li a:hover
 {
   background-color: #111111;
 }
+
 #v_info 
 {
-    border: #000 1px solid;
     overflow : hidden;
     position : fixed;
 	width: 99%;

@@ -45,11 +45,19 @@ img {
 
 
 
+#bars {
+	background-image:url("https://vinepair.com/wp-content/uploads/2017/11/50-best-cocktails-card.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 45%;
+	
+}
+
+
 /*Lastly, for the bottom part of the page */
 #footer {
 	
-	font: size:2; 
-	face: Impact; 
+	font-size:20px;  
 	color: LightSteelBlue;
 	text-align: center;
 }

@@ -2,10 +2,11 @@
 <html>
 <!--Link to styling sheet -->
 <head><link rel="stylesheet" href="NightLife.css"></head>
+
 <body id="content">
 <p id="p1"> Click the button to learn more! </p>
 <form>
-<!-- -->
+<!-- added buttons that will give more info on click -->
 <table >
 <tr>
 	<td name="barPic" id="tablePics"> <img src="https://vinepair.com/wp-content/uploads/2017/11/50-best-cocktails-card.jpg"> </td>
@@ -13,11 +14,11 @@
 
 </tr>
 <tr>
-	<td id="tableTxt"> <input type="button" class="bars" value="Bars" onclick="barDisplay()"> </td>
-	<td id="tableTxt"> <input type="button" class="family" value="Family Fun" onclick="FamilyDisplay()"> </td>
+	<td id="tableTxt"> <input type="button" id="bars" class="bars" value="Bars" onclick="barDisplay()"> </td>
+	<td id="tableTxt"> <input type="button" id="famfun" class="family" value="Family Fun" onclick="FamilyDisplay()"> </td>
 </table>
 </form>
-<!-- -->
+<!-- Info displayed on button click -->
 <script>
 
 function barDisplay() {
