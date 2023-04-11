@@ -3,7 +3,7 @@
 /* First up a general body color scheme */
 body{
 	background: linear-gradient(black,DarkSlateGray,slateGray);
-	color:azure;
+	
 	}
 
 
@@ -30,7 +30,7 @@ table {
 	text-align: center;
 }
 
-
+/* Buttons styling */
 .btn{
 	background-color: darkcyan;
 	border: none;
