@@ -32,7 +32,7 @@ table {
 
 
 .btn{
-	background-color: gainsboro;
+	background-color: green;
 	border: none;
 	color: black;
 	font-size: 16px;
@@ -41,9 +41,9 @@ table {
 }
 
 button{
-	background-color: gainsboro;
+	background-color: darkblue;
 	border: none;
-	color: black;
+	color: white;
 	font-size: 16px;
 	border-radius: 8px;
 	padding: 12px 28px;
