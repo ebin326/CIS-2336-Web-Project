@@ -1,5 +1,7 @@
 body 
 {
+	background-image:url("images/houston.jpg");
+	background-size:cover;
 	overflow:hidden;
 }
 h1
