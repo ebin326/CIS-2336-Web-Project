@@ -41,26 +41,6 @@ table {
 }
 
 
-#button{
-	background-color: gainsboro;
-	border: none;
-	color: black;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 12px 28px;
-
-}
-
-button{
-	background-color: darkblue;
-	border: none;
-	color: white;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 12px 28px;
-
-}
-
 /* For the images */
 img {
       width:45%;
