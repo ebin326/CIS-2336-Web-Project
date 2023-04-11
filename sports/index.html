@@ -3,16 +3,33 @@
 <link rel="stylesheet" href="x.css">
 <title> Sports </title>
 <head>
-</head
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+</head>
+
+
+<iframe src="top.html" width="100%" height="10%" frameborder="0" scrolling="no"></iframe>
+<iframe src="menu.html" width="20%" height="80%" frameborder="0" scrolling="no"></iframe>
+<iframe src="content.html" width="79%" height="80%" frameborder="0" scrolling="yes"></iframe>
+<iframe src="footer.html" width="100%" height="10%" frameborder="0" scrolling="no"></iframe>
+
+
+
+
 <body bgcolor="red">
-<!-- Rows -->
-<frameset rows ="10%,*,10%*">
+<!-- <frameset rows ="10%,*,10%*">
  <frame src="top.html">
-<!-- Column -->
 <frameset cols="20%,*,0%">
    <frame src ="menu.html">
 <frame src ="content.html">
 </frameset>
 <frame src ="footer.html">
-</frameset>
+</frameset> -->
+
+<div id="nav-placeholder"></div>
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
 </html>
