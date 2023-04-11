@@ -32,33 +32,14 @@ table {
 
 
 .btn{
-	background-color: gainsboro;
+	background-color: darkcyan;
 	border: none;
-	color: black;
+	color: white;
 	font-size: 16px;
 	border-radius: 8px;
 	padding: 12px 28px;
 }
 
-button{
-	background-color: gainsboro;
-	border: none;
-	color: black;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 12px 28px;
-
-}
-
-#button{
-	background-color: gainsboro;
-	border: none;
-	color: black;
-	font-size: 16px;
-	border-radius: 8px;
-	padding: 12px 28px;
-
-}
 
 /* For the images */
 img {
