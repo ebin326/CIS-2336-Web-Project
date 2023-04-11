@@ -2,7 +2,7 @@
 <title>  Rodeo Body </title>
 
 <head> 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 <style> 
 
 body {background-color: gray; }
@@ -102,6 +102,13 @@ th {text-align:center;}
 </header> 
 
 <body>
+
+  <div id="nav-placeholder"></div>
+  <script>
+      $.get("nav.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
     
 
 <div class="background1" >
